@@ -1,10 +1,13 @@
-import { View, Text } from 'react-native'
+import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 
-export default function home() {
+export default function Home() {
   return (
+    <SafeAreaView>
+
     <View>
-      <Text style={{fontSize:'40' , fontFamily:'outfit-bold'}}>home</Text>
+      <Text style={{fontSize:20, fontFamily:'outfit-bold'}}>home</Text>
     </View>
+    </SafeAreaView>
   )
 }
